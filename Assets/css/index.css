@@ -1,0 +1,143 @@
+/* Import de Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+/* Cambios Universales */
+* {
+    margin: 15px;
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header - Barra de Navegación */
+header {
+    display: block;
+}
+
+/* Titulo header */
+h1 {
+    float: left;
+    border-bottom: 0.125rem solid rgb(255, 255, 255);
+}
+
+/* Titulo redireccion estilo */
+h1 a {
+    text-decoration: none;
+}
+
+/* Barra de navegacion redireccion estilo */
+nav a {
+    text-decoration: none;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+nav li {
+    position: relative;
+    float: right;
+    margin-top: 24.5px;
+}
+
+header ul li a:hover {
+    color: rgb(185, 185, 185);
+}
+
+/* img article */
+
+.img-article {
+    height: 650px;
+    width: auto;
+    position: relative;
+    top: 90px;
+    left: -170px;
+}
+
+.photosmain {
+    display: flex;
+
+}
+
+/* Titulo encima de imagenes */
+
+.title-div.main {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+/* Titulo encima de fotos principales */
+
+.title-div {
+    position: absolute;
+    top: 45%;
+    left: 49.42%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+
+}
+
+/* Parrafo encima de fotos principales */
+
+.parraf-div {
+    position: absolute;
+    top: 50%;
+    left: 49.42%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+
+}
+
+/* Section contenedor de ¿Quiénes Somos? */
+
+.section-main {
+    position: absolute;
+    padding: 80px;
+}
+
+/* Quiénes somos titulo */
+
+.whoare {
+    text-align: center;
+    font-size: 95px;
+}
+
+/* Quiénes somos parrafo */
+
+.whoare-p {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Foto Snowy */
+
+.snowy-photo {
+    width: auto;
+    height: 700px;
+    margin-top: 85px;
+    position: relative;
+    left: 29%;
+}
+
+/* Parrafo foto snowy */
+
+.snowy-p {
+    text-align: center;
+}
+
+/* Footer Redes Sociales */
+
+#footer {
+    position: relative;
+    bottom: 0;
+    top: 1280px;
+    text-align: center;
+}
